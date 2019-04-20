@@ -12,7 +12,7 @@ object sube {
 }
 	method viaje_comun(km){
 		if(saldo<=-3700)
-		return "no hay saldo para viajar, recargue la sube "
+		return "no hay saldo para viajar, recargue la sube"
 		
 		if(km==1)
 		gastar=1800
