@@ -45,5 +45,31 @@ object sube {
     }
     limite+=1
 }
+method viaje_jubilados(km)
+if(saldo<=-4511)
+		return "no hay saldo para viajar, recargue la sube "
+		
+		if(km==1)
+		gastar=55*1800/100
+		if(km==2)
+		gastar=55*1850/100
+		if(km==3)
+		gastar=55*1900/100
+		if(km==4)
+		gastar=55*1950/100
+		if(km==5)
+		gastar=55*2000/100
+		if(km==6)
+		gastar=55*2050/100
+		if(km==7)
+		gastar=55*2100/100
+		if(km==8)
+		gastar=55*2150/100
+		else
+		gastar=55*2200/100
+		
+		 saldo-=gastar
+		 return "viajando"
+		}
 		
 	}
