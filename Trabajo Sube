@@ -38,7 +38,7 @@ object sube {
 		}
 		method viajeescolar()
 {
-    if(limite==5)
+    if(limite==5 )
     {
         gastar+=50
         saldo-=gastar
@@ -73,3 +73,4 @@ if(saldo<=-4511)
 		}
 		
 	}
+
