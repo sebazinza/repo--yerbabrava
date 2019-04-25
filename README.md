@@ -3,5 +3,5 @@ Laboratorio de Programación Orientada a Objetos
 
 ## Nombre del grupo
 
-+ Integrante uno
-+ Integrante dos
++ Facundo Falleroni
++ Nicolas Aguiar
