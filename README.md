@@ -1,5 +1,5 @@
 # LPOO-2019
-Laboratorio de Programación Orientada a Objetos  🤘	\ud83e\udd18
+Laboratorio de Programación Orientada a Objetos  🤘	
 
 ## Nombre del grupo
 
