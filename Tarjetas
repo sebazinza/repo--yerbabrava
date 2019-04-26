@@ -1,0 +1,93 @@
+/** Objeto 1 */
+object sube {
+	var gastar
+	var saldo=0
+	var limite=0
+	method saldo_actual()
+	{		
+		return saldo
+	}
+	method cargar(cantidad_Carga) {
+		saldo=+cantidad_Carga
+		return"recarga lista"
+}
+	method viaje_comun(km){
+		if(saldo<=-3700)
+		return "no hay saldo para viajar, recargue la sube"
+		
+		if(km==1)
+		gastar=1800
+		if(km==2)
+		gastar=1850
+		if(km==3)
+		gastar=1900
+		if(km==4)
+		gastar=1950
+		if(km==5)
+		gastar=2000
+		if(km==6)
+		gastar=2050
+		if(km==7)
+		gastar=2100
+		if(km==8)
+		gastar=2150
+		else
+		gastar=2200
+		
+		 saldo-=gastar
+		 return "viajando"
+		}
+		method viajeescolar()
+{
+    if(limite==5 )
+    {
+        gastar+=50
+        saldo-=gastar
+    }
+    limite+=1
+}
+method viaje_jubilados(km)
+{
+if(saldo<=-4511)
+		return "no hay saldo para viajar, recargue la sube "
+		
+		if(km==1)
+		gastar=55*1800/100
+		if(km==2)
+		gastar=55*1850/100
+		if(km==3)
+		gastar=55*1900/100
+		if(km==4)
+		gastar=55*1950/100
+		if(km==5)
+		gastar=55*2000/100
+		if(km==6)
+		gastar=55*2050/100
+		if(km==7)
+		gastar=55*2100/100
+		if(km==8)
+		gastar=55*2150/100
+		else
+		gastar=55*2200/100
+		
+		 saldo-=gastar
+		 return "viajando"
+		}
+		
+	}
+   /** Objeto 2 */
+   object uala{
+
+	var saldo
+	method creditoactual() {
+		return 'saldo'
+	}
+	method cargacredito(cantsumado) {
+		saldo += cantsumado
+	} 
+	method gastar(cantgastado){
+	saldo -= cantgastado
+	}
+	
+}
+   
