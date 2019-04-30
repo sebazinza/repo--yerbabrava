@@ -1,7 +1,8 @@
 # LPOO-2019
-Laboratorio de Programación Orientada a Objetos
+
+💻🤙 Laboratorio de Programación Orientada a Objetos  🤘🎮
 
 ## Nombre del grupo
 
-+ Integrante uno
-+ Integrante dos
+* Facundo Falleroni 🤘
+* L. Nicolas Aguiar 🤙
