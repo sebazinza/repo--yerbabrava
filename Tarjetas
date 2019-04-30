@@ -7,8 +7,19 @@ object sube {
 	{		
 		return saldo
 	}
-	method cargar(cantidad_Carga) {
-		saldo=+cantidad_Carga
+	
+	method cargar(metodo,cantidad_Carga) {
+		if(metodo==1)
+		{
+			if(uala.creditoactual()<cantidad_Carga)
+			{
+			return	"No se puede realizar la operacion, recargue su tarjeta Uala"
+			}
+			uala.cargasube(cantidad_Carga)
+			saldo+=cantidad_Carga
+		}
+		else
+		saldo+=cantidad_Carga
 		return"recarga lista"
 }
 	method viaje_comun(km){
@@ -73,21 +84,30 @@ if(saldo<=-4511)
 		 saldo-=gastar
 		 return "viajando"
 	}
-		
 	}
    /** Objeto 2 */
    object uala{
 
-	var saldo
-	method creditoactual() {
-		return 'saldo'
+	var saldo=0
+	method creditoactual(){	
+	 		return saldo
 	}
 	method cargacredito(cantsumado) {
 		saldo += cantsumado
-	} 
-	method gastar(cantgastado){
-	saldo -= cantgastado
+		return "regarga lista"
 	}
-	
+	method gastar(cantgastado){
+		if(saldo-cantgastado<=0){
+			return "no posee los fondos necesarios, recargue su tarjeta"
+		}
+	saldo -= cantgastado
+	return "compra realizada"
+	}
+	method cargasube(cant_Carga){
+		if(saldo==0)
+		{
+			return "No se puede hacer otra recarga saldo insuficiente"
+		}
+		return saldo -= cant_Carga
+	}
 }
-   
