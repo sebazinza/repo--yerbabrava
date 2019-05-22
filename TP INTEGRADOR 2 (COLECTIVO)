@@ -1,0 +1,281 @@
+object bondi
+{
+var recaudacion=0
+var property direccion=0
+var property estado=0
+var property paradaActual=0
+var nafta=100
+const tanquecompleto=100
+var property capacidad=40
+
+
+method arrancar()
+{
+	if(estado==0) //0 apagado y 1 arrancando //
+	{
+		paradaActual+=1
+		estado=1
+		nafta-=10
+		return "arranco el colectivo"+"\n"+self.parada()
+	}
+	else
+	{
+		 return "ya arrancó, no puede volver a arrancar"
+	}
+	}
+	method avanzar()
+	{
+		if(estado==0)
+		{
+			return"tiene que arrancar para avanzar"
+		}
+		if(direccion==0) // IDA 
+		{
+			paradaActual+=1
+			nafta-=(10+0.2*personas.persTotales())
+		}
+		if(direccion==1) // VUELTA
+		{
+			if(paradaActual==0)
+			{
+				return "Termino el viaje"
+			}
+			else
+			{
+				paradaActual-=1
+				nafta-=10
+			}
+        }
+				
+		if (paradaActual==5)
+		{
+			direccion=1
+			self.cargarnafta()
+		}
+		return "avanzando" +self.parada()+personas.llegaron()
+	}
+	method parada()
+    {
+    	if(paradaActual==0)
+    	{
+    		return "Terminal A"
+    	}
+    	if(paradaActual==1)
+    	{
+    		return "Parada 1"
+    	}
+    	if(paradaActual==2)
+    	{
+    		return "Parada 2"
+    	}
+    	if(paradaActual==3)
+        {
+  	        return "Parada 3"
+    	}
+    	if(paradaActual==4)
+    	{
+    		return "Parada 4"
+    	}
+    	if(paradaActual==5)
+    	{
+    		return "Terminal B"
+    	}
+    	else
+    	{
+    		return ""
+    	}
+	}
+	method ganancia(cant_plata)
+	{
+		recaudacion+=cant_plata
+	}
+	method cargarnafta()
+	{	
+		recaudacion-=(tanquecompleto-nafta)*2
+		nafta=100		
+	}
+	
+}
+object personas
+{
+var genteEnParada0 //TERMINAL A
+var genteEnParada1
+var genteEnParada2
+var genteEnParada3
+var genteEnParada4
+var genteEnParada5 //TERMINAL B
+var property persTotales
+var llegaron // PARA VER LLEGO A SU DESTINO
+
+ method viajar(queparada)
+ {
+ 	if(persTotales==bondi.capacidad())
+ 	{
+ 		return "El bondi esta completo, no hay lugar para mas gente"
+ 	}
+  if(bondi.estado()==0)
+  {
+  	return"El colectivo debe iniciar el viaje para que se suba gente"
+  }
+  if(queparada==bondi.paradaActual())
+ {
+ 	return "No podes viajar a la parada en la que ya estas"
+ }
+ 
+ if(queparada>=6 || queparada<=-1)
+		{
+			return "Parada Inexistente"
+		}
+ 
+if(bondi.direccion()==0 && queparada>bondi.paradaActual())
+ {
+if(queparada==1)
+{
+	bondi.ganancia(20)
+	genteEnParada1+=1
+	persTotales+=1
+	}
+	if(queparada==2)
+{
+	bondi.ganancia(20)
+	genteEnParada2+=1
+	persTotales+=1
+	}
+	if(queparada==3)
+{
+	bondi.ganancia(20)
+	genteEnParada3+=1
+	persTotales+=1
+	}
+	if(queparada==4)
+{
+	bondi.ganancia(20)
+	genteEnParada4+=1
+	persTotales+=1
+}
+	if(queparada==5)
+{
+	if(bondi.paradaActual()==4)
+   {
+		bondi.ganancia(5)
+		genteEnParada5+=1
+		persTotales+=1
+   }
+	if(bondi.paradaActual()!=4)
+	{
+	bondi.ganancia(20)
+	genteEnParada5+=1
+	persTotales+=1	
+	}
+}
+if(queparada==0)
+{
+	bondi.ganancia(20)
+	genteEnParada0+=1
+	persTotales+=1
+}
+return "Cantidad de Gente:"+persTotales
+}
+
+if(bondi.direccion()==1 && queparada<bondi.paradaActual())
+{
+	if(queparada==1)
+	{
+	bondi.ganancia(20)
+	genteEnParada1+=1
+	persTotales+=1
+	}
+	if(queparada==2)
+	{
+	bondi.ganancia(20)
+	genteEnParada2+=1
+	persTotales+=1
+	}
+
+	if(queparada==3)
+	{
+	bondi.ganancia(20)
+	genteEnParada3+=1
+	persTotales+=1
+	}
+	
+	
+	if(queparada==4)
+	{
+	bondi.ganancia(20)
+	genteEnParada4+=1
+	persTotales+=1
+	}
+	
+	if(queparada==5)
+	{
+	bondi.ganancia(20)
+	genteEnParada5+=1
+	persTotales+=1
+	}
+	if(queparada==0)
+	{
+	if(bondi.paradaActual()==1)
+   {
+		bondi.ganancia(5)
+		genteEnParada0+=1
+		persTotales+=1
+   }
+	if(bondi.paradaActual()!=1)
+	{
+	bondi.ganancia(20)
+	genteEnParada0+=1
+	persTotales+=1	
+	}
+	}
+	return "Cantidad de Personas:"+persTotales
+}
+return"espera a que el colectivo este volviendo"
+}
+method llegaron()
+  {
+	llegaron=0
+	if(bondi.paradaActual()==1)
+	{
+		persTotales-=genteEnParada1
+		llegaron=genteEnParada1
+		genteEnParada1=0
+	}
+	
+	if(bondi.paradaActual()==2)
+	{
+		persTotales-=genteEnParada2
+		llegaron=genteEnParada2
+		genteEnParada2=0
+	}
+	
+	if(bondi.paradaActual()==3)
+	{
+		persTotales-=genteEnParada3
+		llegaron=genteEnParada3
+		genteEnParada3=0
+	}
+	
+	if(bondi.paradaActual()==4)
+	{
+		persTotales-=genteEnParada4
+		llegaron=genteEnParada4
+		genteEnParada4=0
+	}
+	
+	if(bondi.paradaActual()==5)
+	{
+		persTotales-=genteEnParada5
+		llegaron=genteEnParada5
+		genteEnParada5=0
+	}
+	
+	if(bondi.paradaActual()==0)
+	{
+		persTotales-=genteEnParada0
+		llegaron=genteEnParada1
+		genteEnParada0=0
+	}
+	return "llegaron a su destino:"+llegaron
+  }
+ }
