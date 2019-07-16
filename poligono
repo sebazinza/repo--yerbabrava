@@ -1,19 +1,89 @@
 object poligono
 {
-	var a=0
-	var b=0
-	var c=0 
+	var property a =1
+	var property b =1
+	var property c =1
+	
 	
 	method esEquilatero()
 	{
-	return a==b and b==c and a==c
-    }
-	method esEscaleno()
-	{
-	 return (c<=(a+b)and b<=(a+c)and a<=(b+c))and(a!=b and b!=c and a!=c)
-    }
+		if (self.esTriangulo()) 
+		{
+			return (a == b and a == c)
+		}
+		else
+		{
+			return false
+		}
+	}
 	method esIsosceles()
 	{
-	return (a==b and b!=c and (c<(a+b))) or (a==c and a!=b and (b<(a+c))) or (c==b and c!=a and (a<(b+c)))
-    }
+		if (self.esTriangulo() and self.iso()) 
+		{
+			
+			return ((a == b and a != c) or (a == c and a != b) or (c == b and c != a))
+		}
+		else
+		{
+			return false
+		}
+	}
+	method esEscaleno()
+	{
+		if (self.esTriangulo() and self.esca()) 
+		{
+			return (a != b and a != c and b != c)
+		}
+		else
+		{
+			return false
+		}
+	}
+	
+	
+	method esTriangulo()
+	{
+		return (a > 0 and b > 0 and c > 0)
+	}
+	
+	method esca()
+	{
+		if (a > b and a > c)
+		{
+			return ((b + c) > a)
+		}
+		if (b > a and b > c)
+		{
+			return ((a + c) > b)
+		}
+		if (c > b and c > a)
+		{
+			return ((b + a) > c)
+		}
+		else
+		{
+			return false
+		}
+	}
+	
+	method iso()
+	{
+		if ((a > b and a > c) or (a < b and a < c))
+		{
+			return ((b + c) > a)
+		}
+		if ((b > a and b > c) or (b < a and b < c))
+		{
+			return ((a + c) > b)
+		}
+		if ((c > b and c > a) or (c < b and c < a))
+		{
+			return ((b + a) > c)
+		}
+		
+		else
+		{
+			return false
+		}
+	}
 }
