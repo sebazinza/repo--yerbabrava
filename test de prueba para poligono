@@ -1,28 +1,30 @@
+Import poligono*
+
 test "Triangulo Equilatero correcto"
 {
-	poligono.a(15)
-	poligono.b(15)
-	poligono.c(15)
+	poligono.a(25)
+	poligono.b(25)
+	poligono.c(25)
 	assert.that(poligono.esEquilatero())
 }
 test "Triangulo Equilatero lado A diferente"
 {
 	poligono.a(20)
-	poligono.b(15)
-	poligono.c(15)
+	poligono.b(17)
+	poligono.c(17)
 	assert.notThat(poligono.esEquilatero())
 }
 test "Triangulo Equilatero lado B diferente"
 {
 	poligono.a(15)
-	poligono.b(10)
+	poligono.b(12)
 	poligono.c(15)
 	assert.notThat(poligono.esEquilatero())
 }
 test "Triangulo Equilatero lado C diferente"
 {
-	poligono.a(15)
-	poligono.b(15)
+	poligono.a(157)
+	poligono.b(17)
 	poligono.c(16)
 	assert.notThat(poligono.esEquilatero())
 }
@@ -31,8 +33,8 @@ test "Triangulo Equilatero lado C diferente"
 test "Triangulo Isosceles lado A diferente al resto"
 {
 	poligono.a(20)
-	poligono.b(10)
-	poligono.c(10)
+	poligono.b(11)
+	poligono.c(11)
 	assert.that(poligono.esIsosceles())
 }
 test "Triangulo Isosceles lado B diferente al resto"
@@ -45,15 +47,15 @@ test "Triangulo Isosceles lado B diferente al resto"
 test "Triangulo Isosceles lado C diferente al resto"
 {
 	poligono.a(20)
-	poligono.b(20)
-	poligono.c(15)
+	poligono.b(10)
+	poligono.c(10)
 	assert.that(poligono.esIsosceles())
 }
 test "Triangulo Isosceles,lado A se excede al resto"
 {
 	poligono.a(21)
-	poligono.b(11)
-	poligono.c(11)
+	poligono.b(10)
+	poligono.c(10)
 	assert.notThat(poligono.esIsosceles())
 }
 test "Triangulo Isosceles,lado B se excede al resto"
@@ -65,8 +67,8 @@ test "Triangulo Isosceles,lado B se excede al resto"
 }
 test "Triangulo Isosceles,lado C se excede al resto"
 {
-	poligono.a(21)
-	poligono.b(21)
+	poligono.a(22)
+	poligono.b(22)
 	poligono.c(43)
 	assert.notThat(poligono.esIsosceles())
 }
@@ -81,7 +83,7 @@ test "Triangulo Escaleno correcto"
 }
 test"Triangulo Escaleno, lado A se excede al resto"
 {
-	poligono.a(6)
+	poligono.a(16)
 	poligono.b(7)
 	poligono.c(8)
 	assert.notThat(poligono.esEscaleno())
