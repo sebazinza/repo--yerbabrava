@@ -2,6 +2,35 @@ Import poligono*
 
 test "Triangulo Equilatero correcto"
 {
+	poligono.a(-25)
+	poligono.b(-25)
+	poligono.c(-25)
+	assert.that(poligono.esEquilatero())
+}
+test "Triangulo Equilatero lado A diferente"
+{
+	poligono.a(-20)
+	poligono.b(-17)
+	poligono.c(-17)
+	assert.notThat(poligono.esEquilatero())
+}
+test "Triangulo Equilatero lado B diferente"
+{
+	poligono.a(-15)
+	poligono.b(-12)
+	poligono.c(-15)
+	assert.notThat(poligono.esEquilatero())
+}
+test "Triangulo Equilatero lado C diferente"
+{
+	poligono.a(-157)
+	poligono.b(-17)
+	poligono.c(-16)
+	assert.notThat(poligono.esEquilatero())
+}
+
+test "Triangulo Equilatero correcto"
+{
 	poligono.a(25)
 	poligono.b(25)
 	poligono.c(25)
