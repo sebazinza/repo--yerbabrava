@@ -6,39 +6,14 @@ object poligono
 	
 	method esEquilatero()
 	{
-	if(a==b and a==c)
-	{
-		return true
-	}
-	else
-	     {
-		 return false
-		 
-		 }
-	}
+	return a==b and b==c and a==c
+    }
 	method esEscaleno()
 	{
-	if((a != b) and (a != c) and (b != c))
-	{
-		return true
-	}
-	else
-	    { 
-		return false
-		
-		}
-	}
-	
+	 return (c<=(a+b)and b<=(a+c)and a<=(b+c))and(a!=b and b!=c and a!=c)
+    }
 	method esIsosceles()
 	{
-	if((a == b) and (c != b) and (c != a) or (a == c) and (b != a ) and (b != c) or (b == c) and (a != b) and (a != c) )
-	{
-		return true
-	}
-	else
-	    { 
-		return false
-		
-		}
-	}
+	return (a==b and b!=c and (c<(a+b))) or (a==c and a!=b and (b<(a+c))) or (c==b and c!=a and (a<(b+c)))
+    }
 }
