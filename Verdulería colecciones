@@ -2,25 +2,25 @@ object verduleria{
 const verduras []
 const fruta []
 
-methood{ 
+method{ 
  agregarfruta()
  fruta.add()
 
 }
 
-methood{ 
+method{ 
  agregarverdura()
  verdura.add()
 }
 
-methood{ 
+method{ 
  vertodo()
  (frutas + verduras).size ()
 
 }
 
 
- methood{ 
+ method{ 
   Ver ordenagregado ()
   
   vertodo.linkedHashSet()
