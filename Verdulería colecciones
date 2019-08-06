@@ -1,23 +1,32 @@
-Object verduleria{
-Const verduras []
-Const fruta []
+object verduleria{
+const verduras []
+const fruta []
 
-Methood{ 
- Agregar fruta()
- Fruta.add()
+methood{ 
+ agregarfruta()
+ fruta.add()
 
 }
 
-Methood{ 
- Agregar verdura()
+methood{ 
+ agregarverdura()
  verdura.add()
 }
 
-Methood{ 
- Ver todo()
- (frutas + verduras).size
+methood{ 
+ vertodo()
+ (frutas + verduras).size ()
 
 }
 
 
- 
+ methood{ 
+  Ver ordenagregado ()
+  
+  vertodo.linkedHashSet()
+
+}
+
+
+
+}
