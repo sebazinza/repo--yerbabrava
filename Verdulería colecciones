@@ -1,0 +1,23 @@
+Object verduleria{
+Const verduras []
+Const fruta []
+
+Methood{ 
+ Agregar fruta()
+ Fruta.add()
+
+}
+
+Methood{ 
+ Agregar verdura()
+ verdura.add()
+}
+
+Methood{ 
+ Ver todo()
+ (frutas + verduras).size
+
+}
+
+
+ 
