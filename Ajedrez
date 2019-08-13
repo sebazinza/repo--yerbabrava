@@ -7,3 +7,11 @@ Segundo paso, creación de piezas/fichas.Cada pieza tiene su forma de moverse y 
 nos comen o comemos una pieza a el oponente esa pieza que uno le comió tiene un valor, por ejemplo la torre tiene un valor de 5 puntos, en
 caso que el juego termine en puntos, si uno tiene una torre del oponente comida, y el oponente tiene 3 peones estaríamos en ventaja,¿ esto 
 que nos dice?; que el que tiene comida la torre va en ventaja material, osea la torre vale 5 puntos y el peon 1, entonces irían 5 a 3.
+
+VALORES DE PIEZAS
+Rey= 9      Puntos
+Reyna = 9   Puntos
+Torre = 5   Puntos
+Alfil = 3   puntos
+Caballo = 3 Puntos
+Peón = 1    Puntos 
