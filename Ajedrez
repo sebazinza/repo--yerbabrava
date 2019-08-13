@@ -1,0 +1,4 @@
+se empezaria haciendo un MAPA/MODELO/TABLERO (en donde despues lasfichas se desplazaran )de 8x8 contando que esta armado por 64 seldas;
+es una cuadrilla intercalada entre blanco y negro. cada de esas seldas tendria una "coordebada" osea estaria formado el mapa por 8 filas y
+8 columnas. 
+por ejemplo el A1 sería la primer selda de arriva a la izquierda.
