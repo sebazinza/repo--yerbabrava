@@ -29,8 +29,6 @@ Peón = 1    Puntos
 
 VALIDACIÓN DE MOVIMIENTOS
 
-Validar los movimientos:
-
 ----------	Movimiento	Orientación	         Forma Comer	Puntaje al Comer			
 Torre	        ilimitado.      Horizontal y vertical	------	            5			
 Caballo	          3x1	            “L”	                ------	            3			
