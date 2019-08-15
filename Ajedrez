@@ -8,7 +8,8 @@ nos comen o comemos una pieza a el oponente esa pieza que uno le comió tiene un
 caso que el juego termine en puntos, si uno tiene una torre del oponente comida, y el oponente tiene 3 peones estaríamos en ventaja,¿ esto 
 que nos dice?; que el que tiene comida la torre va en ventaja material, osea la torre vale 5 puntos y el peon 1, entonces irían 5 a 3.
 
-PIEZAS: es igual para el blanco y el negro los 2 tienen que tener la misma cantidad de piezas.
+PIEZAS: es igual para el blanco y el negro los 2 tienen que tener la misma cantidad de piezas. El tablero no se lo coinsidera valido sí
+Tiene más piezas de las que se indicaran a continuación.
 
  _1 Rey
  _1 Reyna
@@ -26,3 +27,14 @@ Alfil = 3   puntos
 Caballo = 3 Puntos
 Peón = 1    Puntos 
 
+VALIDACIÓN DE MOVIMIENTOS
+
+Validar los movimientos:
+
+----------	Movimiento	Orientación	         Forma Comer	Puntaje al Comer			
+Torre	        ilimitado.      Horizontal y vertical	------	            5			
+Caballo	          3x1	            “L”	                ------	            3			
+Alfil	        ilimitado	 Diagonales	        ------.       	    3			
+Reina	        ilimitado	    Todos	        ------	            9			
+Rey	           x1	            Todos	        ------.        	  ------			
+Peon	           x1	          Adelante	        Diagonal x1	    1			
