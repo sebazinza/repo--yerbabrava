@@ -19,7 +19,7 @@ Tiene más piezas de las que se indicaran a continuación.
  _8 peones
 
 
-VALORES DE PIEZAS
+   VALORES DE PIEZAS
 Rey= 9      Puntos
 Reyna = 9   Puntos
 Torre = 5   Puntos
@@ -27,7 +27,7 @@ Alfil = 3   puntos
 Caballo = 3 Puntos
 Peón = 1    Puntos 
 
-VALIDACIÓN DE MOVIMIENTOS
+   VALIDACIÓN DE MOVIMIENTOS
 
 ----------	Movimiento	Orientación	         Forma Comer	Puntaje al Comer			
 Torre	        ilimitado.      Horizontal y vertical	------	            5			
@@ -35,4 +35,13 @@ Caballo	          3x1	            “L”	                ------	            3
 Alfil	        ilimitado	 Diagonales	        ------.       	    3			
 Reina	        ilimitado	    Todos	        ------	            9			
 Rey	           x1	            Todos	        ------.        	  ------			
-Peon	           x1	          Adelante	        Diagonal x1	    1			
+Peon	           x1	          Adelante	        Diagonal x1	    1	
+
+
+
+
+  CONDICIONES PARA TERMINAR UNA PARTIDA
+1. Comer al Rey
+2. Rendición
+3. No poder mover ninguna pieza
+	
