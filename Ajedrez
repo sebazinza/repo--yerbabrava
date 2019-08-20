@@ -58,6 +58,11 @@ Rey:Primera sub clase llamada Rey, que va a tener
 Y va a dejar que se mueva uns posicion hacía cualquier lado mientras no haya ninguna otra pieza en el lugar a donde quiere ir.
 Necesitara un metodo que por el cual si lo coemen
 
+PEON: Segunda subclase a crear (nombre peones)que contiene 8 objetos cada objeto con 2 atributos los cuales son, color Blanco/Negro; Valor material 1 punto; cada objeto se llamara con un determinado nombre
+Peon1;Peon2;Peon3;Peon4;Peon5;Peon6;Peon7;Peon8. Tendra 1 metodo con ciertas restringsiones
+Método mover:Se puede mover un solo casillero para adelante y uno solo para comer, tendrá que dejar dar la opción de darte una opción de que pieza te daría mayo ventaja material, no poder moverse a otro casillero
+Si hay otro objeto en el a no ser que sea para comer.
+
 
 
 	
