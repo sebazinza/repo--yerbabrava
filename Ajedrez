@@ -4,25 +4,6 @@ es una cuadrilla intercalada entre blanco y negro. cada de esas celdas tendria u
 por ejemplo el A1 sería la primer celda de arriva a la izquierda.
 
 
-┌───┬───┬───┬───┬───┬───┬───┬───┐
-│ █ │ █ │ █ │   │ █ │ █ │   │ █ │
-├───┼───┼───┼───┼───┼───┼───┼───┤
-│ █ │   │   │ █ │   │   │ █ │   │
-├───┼───┼───┼───┼───┼───┼───┼───┤
-│ █ │   │ █ │   │ █ │   │ █ │   │
-├───┼───┼───┼───┼───┼───┼───┼───┤
-│ █ │ █ │ █ │ █ │ █ │   │   │   │
-├───┼───┼───┼───┼───┼───┼───┼───┤
-│ █ │ █ │   │   │   │   │   │   │
-├───┼───┼───┼───┼───┼───┼───┼───┤
-│ █ │ █ │   │ █ │ █ │   │ █ │ █ │
-├───┼───┼───┼───┼───┼───┼───┼───┤
-│ █ │   │   │ █ │ █ │ █ │ █ │   │
-├───┼───┼───┼───┼───┼───┼───┼───┤
-│ █ │ █ │ █ │ █ │ █ │ █ │ █ │ █ │
-└───┴───┴───┴───┴───┴───┴───┴───┘
-
-
 
 Segundo paso, creación de piezas/fichas.Cada pieza tiene su forma de moverse y un respectivo punto ¿ah que nos referimos con estp?, que sí
 nos comen o comemos una pieza a el oponente esa pieza que uno le comió tiene un valor, por ejemplo la torre tiene un valor de 5 puntos, en
