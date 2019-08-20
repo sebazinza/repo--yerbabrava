@@ -3,6 +3,27 @@ es una cuadrilla intercalada entre blanco y negro. cada de esas celdas tendria u
 8 columnas.para comenzar, se empieza teniendo cada ficha en su lugar; sin que halla ni una más ni niguna de menos.
 por ejemplo el A1 sería la primer celda de arriva a la izquierda.
 
+
+┌───┬───┬───┬───┬───┬───┬───┬───┐
+│ █ │ █ │ █ │   │ █ │ █ │   │ █ │
+├───┼───┼───┼───┼───┼───┼───┼───┤
+│ █ │   │   │ █ │   │   │ █ │   │
+├───┼───┼───┼───┼───┼───┼───┼───┤
+│ █ │   │ █ │   │ █ │   │ █ │   │
+├───┼───┼───┼───┼───┼───┼───┼───┤
+│ █ │ █ │ █ │ █ │ █ │   │   │   │
+├───┼───┼───┼───┼───┼───┼───┼───┤
+│ █ │ █ │   │   │   │   │   │   │
+├───┼───┼───┼───┼───┼───┼───┼───┤
+│ █ │ █ │   │ █ │ █ │   │ █ │ █ │
+├───┼───┼───┼───┼───┼───┼───┼───┤
+│ █ │   │   │ █ │ █ │ █ │ █ │   │
+├───┼───┼───┼───┼───┼───┼───┼───┤
+│ █ │ █ │ █ │ █ │ █ │ █ │ █ │ █ │
+└───┴───┴───┴───┴───┴───┴───┴───┘
+
+
+
 Segundo paso, creación de piezas/fichas.Cada pieza tiene su forma de moverse y un respectivo punto ¿ah que nos referimos con estp?, que sí
 nos comen o comemos una pieza a el oponente esa pieza que uno le comió tiene un valor, por ejemplo la torre tiene un valor de 5 puntos, en
 caso que el juego termine en puntos, si uno tiene una torre del oponente comida, y el oponente tiene 3 peones estaríamos en ventaja,¿ esto 
@@ -44,4 +65,9 @@ Peon	           x1	          Adelante	        Diagonal x1
 1. Comer al Rey
 2. Rendición
 3. No poder mover ninguna pieza
+4. Por tablas (50 Movimientos maximo y gana el que lleva la ventaja material)
+
+
+
+
 	
