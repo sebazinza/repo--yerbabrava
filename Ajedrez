@@ -29,13 +29,13 @@ Peón = 1    Puntos
 
    VALIDACIÓN DE MOVIMIENTOS
 
-----------	Movimiento	Orientación	         Forma Comer	Puntaje al Comer			
-Torre	        ilimitado.      Horizontal y vertical	------	            5			
-Caballo	          3x1	            “L”	                ------	            3			
-Alfil	        ilimitado	 Diagonales	        ------.       	    3			
-Reina	        ilimitado	    Todos	        ------	            9			
-Rey	           x1	            Todos	        ------.        	  ------			
-Peon	           x1	          Adelante	        Diagonal x1	    1	
+----------	Movimiento	Orientación	         Forma Comer				
+Torre	        ilimitado.      Horizontal y vertical	------	            			
+Caballo	          3x1	            “L”	                ------	            			
+Alfil	        ilimitado	 Diagonales	        ------.       	    			
+Reina	        ilimitado	    Todos	        ------	            			
+Rey	           x1	            Todos	        ------.        	  			
+Peon	           x1	          Adelante	        Diagonal x1	   
 
 
 
