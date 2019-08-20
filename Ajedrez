@@ -51,9 +51,12 @@ Peon	           x1	          Adelante	        Diagonal x1
 
 
 CLASES:
-Se clasificaría en una clase llamada piezas que va a tener una SUB CLASE llamada Rey, que va a tener
+Se clasificaría en una clase llamada piezas que va a tener una SUB CLASES
+
+Rey:Primera sub clase llamada Rey, que va a tener
 1 objeto con 2 atributos uno va a ser blanco y otro va a ser negro. Va a tener un metodo que se va a llamar mover
-Y va a dejar que se mueva uns posicion hacía cualquier lado mientras no haya ninguna otra pieza en el lugar a donde quiere ir
+Y va a dejar que se mueva uns posicion hacía cualquier lado mientras no haya ninguna otra pieza en el lugar a donde quiere ir.
+Necesitara un metodo que por el cual si lo coemen
 
 
 
