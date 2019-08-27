@@ -98,7 +98,7 @@ Llamar Método puedemover
 llamar Método ventajamaterial 
 crear Metodo sercomido: Al ser comido se le otorgará al rival 1 puntos material.
 
-Caballo: Tercera subclase (heredada de la clase piezas) que va a tener el nombre de Caballo y va a tener 2 objeos, con 3 atributos que son 
+CABALLO: Tercera subclase (heredada de la clase piezas) que va a tener el nombre de Caballo y va a tener 2 objeos, con 3 atributos que son 
 constantes los cuales son:
 .color B (blanco) o N negro;
 .Valor material 3 puntos.
@@ -116,7 +116,7 @@ Medio izq. abajo   	          (4,4) -- (3,1) ... (-1,-3)
 Medio der. arriba 		  (4,4) -- (5,7) ... (+1,+3)
 Medio der. abajo  		  (4,4) -- (3,7) ... (-1,+3)
 
-cada objeto se llamara con un determinado nombre; Su nombre variara determinando de que la constante color sí es blanca o negra, sí es 
+Cada objeto se llamara con un determinado nombre; Su nombre variara determinando de que la constante color sí es blanca o negra, sí es 
 es blanca se le pondra una "B" Y sí es neegra una "N".
 Caballo1B; Caballo2B; Caballo1N; Caballo2N.
 
@@ -124,7 +124,26 @@ Tendra 4 metodos.
 Llamar Método de validaciondemovimiento
 Llamar Método puedemover
 llamar Método ventajamaterial 
-crear Metodo sercomido: Al ser comido se le otorgará al rival 3 puntos material.
+Crear Metodo sercomido: Al ser comido se le otorgará al rival 3 puntos material.
+
+
+TORRE: Cuarta subclase (heredada de la clase piezas) a crear (nombre peones) que contiene 2 objetos cada objeto con 3 atributos que son 
+constantes los cuales son:
+.color B (blanco) o N negro;
+.Valor material 2 puntos.
+.movimiento: se mueve horizontal y vertical, no tiene limite de movimiento
+
+Cada objeto se llamara con un determinado nombre; Su nombre variara determinando de que la constante color sí es blanca o negra, sí es 
+es blanca se le pondra una "B" Y sí es neegra una "N".
+Torre1B;Torre2B;Torre1N;Torre2N.
+
+
+Tendra 4 metodos.
+Llamar Método de validaciondemovimiento
+Llamar Método puedemover
+llamar Método ventajamaterial 
+Crear Metodo sercomido: Al ser comido se le otorgará al rival 2 puntos material.
+
 
 
 
