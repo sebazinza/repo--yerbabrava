@@ -62,17 +62,17 @@ cordenada valida en base a la pieza y a el metodo validaciondemovimoento a donde
 
 TABLERO:
 
-El tablero se va a basar en coordenadas 
+El tablero se va a basar en coordenadas esto va a ayudar que no se pasen del limite y ayudara la validacion 
 
-
-A1B A2N A3B A4N A5B A6N A7B A8N
-B1N B2B B3N B4B B5N B6B B7N B8B
-C1B C2N C3B C4N C5B C6N C7B C8N
-D1B D2N D3B D4N D5B D6N D7B D8N
-E1N E2B E3N E4B E5N E6B E7N E8B
-F1B F2N F3B F4N F5B F6N F7B F8N
-G1B G2N G3B G4N G5B G6N G7B G8N
-H1N H2B H3N H4B H5N H6B H7N H8B
+ y   y   y   y   y   y   y   y
+A1B A2N A3B A4N A5B A6N A7B A8N x
+B1N B2B B3N B4B B5N B6B B7N B8B x
+C1B C2N C3B C4N C5B C6N C7B C8N x
+D1B D2N D3B D4N D5B D6N D7B D8N x
+E1N E2B E3N E4B E5N E6B E7N E8B x
+F1B F2N F3B F4N F5B F6N F7B F8N x
+G1B G2N G3B G4N G5B G6N G7B G8N x
+H1N H2B H3N H4B H5N H6B H7N H8B x
 
 El tablero no se lo coinsidera valido sí
 Tiene más piezas de las que se indicaran a continuación.
@@ -103,7 +103,7 @@ Creación de métodos
 Metodo ventajamaterial tendrá que dejar dar la opción de darte una opción de que pieza te daría mayor ventaja material 
 
 Metodo de validaciondemovimiento valida si hay algún otra ficha en el lugar y determina que tipo de color es, de que clase de pieza es si 
-se puede mover ahí o no tu ficha, el movimiento no puede ser si "x" es menor a 0 y/o mayor a 8
+se puede mover ahí o no tu ficha, el movimiento no puede ser si pasa de xy8 o es menor a yx0
 Y sí "y" es menor a 0 o mayor a 8 //( estos serian los limites del tablero).
 
 Metodo puedemover se tiene que tomar las constantes (que tipo de pieza y color es) , cuanto se puede mover,en que dirección, y dejar otorgar una 
