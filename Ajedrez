@@ -69,7 +69,7 @@ su posicion en X y en Y).
 Se clasificaría en una clase llamada piezas que va a tener SUB CLASES
 
 Rey:Primera sub clase ( que es heredada de la clase piezas) llamada Rey,heredado de la clase piezas, que va a tener
-1 objeto contiene 3 atributos.
+1 objeto contiene 4 atributos.
 .Uno el cual va a ser el color identificado por una "B" sí es blanco y una "N" si es negro;
 .Se mueve un casillero en cualquier sentido adelante,atras,izquierda,derecha.
 .Va a tener 9 puntos.
@@ -82,6 +82,7 @@ ReyB;ReyN.
 Llamar Método puedemover 
 Llamar Método de validaciondemovimiento
 llamar Método ventajamaterial 
+crear Metodo sercomido: Al ser comido se le otorgará el final del juego y la victoria al rival
 
 PEON: Segunda subclase (heredada de la clase piezas) a crear (nombre peones) que contiene 8 objetos cada objeto con 3 atributos que son 
 constantes los cuales son:
@@ -91,10 +92,11 @@ constantes los cuales son:
 cada objeto se llamara con un determinado nombre; Su nombre variara determinando de que la constante color sí es blanca o negra, sí es 
 es blanca se le pondra una "B" Y sí es neegra una "N".
 PeonB1;PeonB2;PeonB3;PeonB4;PeonB5;PeonB6;PeonB7;PeonB8. PeonN1;PeonN2;PeonN3;PeonN4;PeonN5;PeonN6;PeonN7;PeonN8.
-Tendra 3 metodos
+Tendra 4 metodos
 Llamar Método de validaciondemovimiento
 Llamar Método puedemover
 llamar Método ventajamaterial 
+crear Metodo sercomido: Al ser comido se le otorgará al rival 1 puntos material.
 
 Caballo: Tercera subclase (heredada de la clase piezas) que va a tener el nombre de Caballo y va a tener 2 objeos, con 3 atributos que son 
 constantes los cuales son:
@@ -118,10 +120,11 @@ cada objeto se llamara con un determinado nombre; Su nombre variara determinando
 es blanca se le pondra una "B" Y sí es neegra una "N".
 Caballo1B; Caballo2B; Caballo1N; Caballo2N.
 
-Tendra 3 metodos.
+Tendra 4 metodos.
 Llamar Método de validaciondemovimiento
 Llamar Método puedemover
 llamar Método ventajamaterial 
+crear Metodo sercomido: Al ser comido se le otorgará al rival 3 puntos material.
 
 
 
