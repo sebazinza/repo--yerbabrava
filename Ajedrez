@@ -60,6 +60,37 @@ Metodo puedemover se tiene que tomar las constantes (que tipo de pieza y color e
 cordenada valida en base a la pieza y a el metodo validaciondemovimoento a donde moverse. (Retorna sí o no)
 
 
+TABLERO:
+
+El tablero se ba a basar en coordenadas 
+
+
+A1B A2N A3B A4N A5B A6N A7B A8N
+B1N B2B B3N B4B B5N B6B B7N B8B
+C1B C2N C3B C4N C5B C6N C7B C8N
+D1B D2N D3B D4N D5B D6N D7B D8N
+E1N E2B E3N E4B E5N E6B E7N E8B
+F1B F2N F3B F4N F5B F6N F7B F8N
+G1B G2N G3B G4N G5B G6N G7B G8N
+H1N H2B H3N H4B H5N H6B H7N H8B
+
+El tablero no se lo coinsidera valido sí
+Tiene más piezas de las que se indicaran a continuación.
+
+ _1 Rey BLANCO        
+ _1 Reyna BLANCO
+ _2 alfiles BLANCO
+ _2 caballos BLANCO
+ _2 torres BLANCO
+ _8 peones BLANCO
+
+			_1 Rey NEGRO
+		 	_1 Reyna NEGRO
+ 			_2 alfiles NEGRO
+ 			_2 caballos NEGRO
+ 			_2 torres NEGRO
+ 			_8 peones NEGRO
+
 
 CLASES:
 PIEZAS 
