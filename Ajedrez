@@ -33,7 +33,7 @@ Peón = 1    Puntos
 
 ----------	Movimiento	Orientación	         Forma Comer				
 Torre	        ilimitado.      Horizontal y vertical	------	            			
-Caballo	          3x1	            “L”	                ------	            			
+Caballo	          3x1/1x3 	            “L”	                ------	            			
 Alfil	        ilimitado	 Diagonales	        ------.       	    			
 Reina	        ilimitado	    Todos	        ------	            			
 Rey	           x1	            Todos	        ------.        	  			
@@ -51,17 +51,24 @@ Peon	           x1	          Adelante	        Diagonal x1
 
 
 CLASES:
-Se clasificaría en una clase llamada piezas que va a tener una SUB CLASES
+PIEZAS 
+Pieza: Va ver una clase llamada piezas que tendra 3 variables globales que van a hacer
+La primera color sí es B es blanco y si es N es negro; despues va a ver una que se va a llamar fila y otra columna.
+Se clasificaría en una clase llamada piezas que va a tener SUB CLASES
 
 Rey:Primera sub clase llamada Rey, que va a tener
-1 objeto con 3 atributos uno va a ser blanco y otro va a ser negro; luego va a tener 9 puntos de ventaja material. Va a tener un metodo que se va a llamar mover
+1 objeto contiene 2 atributos uno el cual va a ser el color identificado por una "B" sí es blanco y una "N" si es negro; luego va a tener 9 puntos de ventaja material. Va a tener un metodo que se va a llamar mover
 Y va a dejar que se mueva uns posicion hacía cualquier lado mientras no haya ninguna otra pieza en el lugar a donde quiere ir.
 Necesitara un metodo que por el cual si lo coemen
 
-PEON: Segunda subclase a crear (nombre peones)que contiene 8 objetos cada objeto con 2 atributos los cuales son, color Blanco/Negro; Valor material 1 punto; cada objeto se llamara con un determinado nombre
-Peon1;Peon2;Peon3;Peon4;Peon5;Peon6;Peon7;Peon8. Tendra 1 metodo con ciertas restringsiones
+PEON: Segunda subclase a crear (nombre peones)que contiene 8 objetos cada objeto con 2 atributos que son ambos constantes los cuales son, color B (blanco) o N negro; Valor material 1 punto; 
+cada objeto se llamara con un determinado nombre
+Peon1;Peon2;Peon3;Peon4;Peon5;Peon6;Peon7;Peon8. 
+Tendra 1 metodo con ciertas restringsiones
 Método mover:Se puede mover un solo casillero para adelante y uno solo para comer, tendrá que dejar dar la opción de darte una opción de que pieza te daría mayo ventaja material, no poder moverse a otro casillero
 Si hay otro objeto en el a no ser que sea para comer.
+
+
 
 
 
