@@ -144,11 +144,22 @@ Llamar Método puedemover
 llamar Método ventajamaterial 
 Crear Metodo sercomido: Al ser comido se le otorgará al rival 2 puntos material.
 
-Reyna: Quinta subclase (heredada de la clase piezas) a crear (nombre Reyna) que contiene 2 objetos cada objeto con 3 atributos que son 
+Reyna: Quinta subclase (heredada de la clase piezas) a crear (nombre Reyna) que contiene 1 objetos cada objeto con 3 atributos que son 
 constantes los cuales son:
 .color B (blanco) o N negro;
 .Valor material 9 puntos.
 .movimiento: se mueve en diagoal, horizontal(izquierda y derecha), vertical(aariva y abajo),no tiene limite de movimiento en casillas.
+
+Cada objeto se llamara con un determinado nombre; Su nombre variara determinando de que la constante color sí es blanca o negra, sí es 
+es blanca se le pondra una "B" Y sí es neegra una "N".
+ReynaB;ReynaN.
+
+Tendra 4 metodos.
+Llamar Método de validaciondemovimiento
+Llamar Método puedemover
+llamar Método ventajamaterial 
+Crear Metodo sercomido: Al ser comido se le otorgará al rival 9 puntos material.
+
 
 
 
