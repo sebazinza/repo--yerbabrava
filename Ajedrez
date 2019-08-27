@@ -68,7 +68,7 @@ La primera color sí es B es blanco y si es N es negro; despues va a ver una que
 su posicion en X y en Y).
 Se clasificaría en una clase llamada piezas que va a tener SUB CLASES
 
-Rey:Primera sub clase ( que es enredada de la clase piezas) llamada Rey,heredado de la clase piezas, que va a tener
+Rey:Primera sub clase ( que es heredada de la clase piezas) llamada Rey,heredado de la clase piezas, que va a tener
 1 objeto contiene 3 atributos.
 .Uno el cual va a ser el color identificado por una "B" sí es blanco y una "N" si es negro;
 .Se mueve un casillero en cualquier sentido adelante,atras,izquierda,derecha.
@@ -83,7 +83,7 @@ Llamar Método puedemover
 Llamar Método de validaciondemovimiento
 llamar Método ventajamaterial 
 
-PEON: Segunda subclase (eredera de la clase piezas) a crear (nombre peones) que contiene 8 objetos cada objeto con 3 atributos que son 
+PEON: Segunda subclase (heredada de la clase piezas) a crear (nombre peones) que contiene 8 objetos cada objeto con 3 atributos que son 
 constantes los cuales son:
 .color B (blanco) o N negro;
 .Valor material 1 puntos.
@@ -96,7 +96,7 @@ Llamar Método de validaciondemovimiento
 Llamar Método puedemover
 llamar Método ventajamaterial 
 
-Caballo: Tercera subclase (eredera de la clase piezas) que va a tener el nombre de Caballo y va a tener 2 objeos, con 3 atributos que son 
+Caballo: Tercera subclase (heredada de la clase piezas) que va a tener el nombre de Caballo y va a tener 2 objeos, con 3 atributos que son 
 constantes los cuales son:
 .color B (blanco) o N negro;
 .Valor material 3 puntos.
