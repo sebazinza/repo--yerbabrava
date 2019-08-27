@@ -56,7 +56,7 @@ Metodo de validaciondemovimiento valida si hay algún otra ficha en el lugar y d
 se puede mover ahí o no tu ficha, el movimiento no puede ser si "x" es menor a 0 y/o mayor a 8
 Y sí "y" es menor a 0 o mayor a 8 //( estos serian los limites del tablero).
 
-Metodo mover se tiene que tomar las constantes y embase a que pieza es, cuanto se puede mover,en que dirección, y dejar otorgar una 
+Metodo puedemover se tiene que tomar las constantes (que tipo de pieza y color es) , cuanto se puede mover,en que dirección, y dejar otorgar una 
 cordenada valida en base a la pieza y a el metodo validaciondemovimoento a donde moverse. (Retorna sí o no)
 
 
@@ -69,12 +69,15 @@ su posicion en X y en Y).
 Se clasificaría en una clase llamada piezas que va a tener SUB CLASES
 
 Rey:Primera sub clase ( que es enredada de la clase piezas) llamada Rey,heredado de la clase piezas, que va a tener
-1 objeto contiene 3 atributos
+1 objeto contiene 3 atributos.
 .Uno el cual va a ser el color identificado por una "B" sí es blanco y una "N" si es negro;
-.Va a tener 9 puntos de ventaja material.
 .Se mueve un casillero en cualquier sentido adelante,atras,izquierda,derecha.
-Va a tener un metodo que se va a llamar mover
-Y va a dejar que se mueva uns posicion hacía cualquier lado mientras no haya ninguna otra pieza en el lugar a donde quiere ir.
+.Va a tener 9 puntos de ventaja material.
+
+cada objeto se llamara con un determinado nombre; Su nombre variara determinando de que la constante color sí es blanca o negra, sí es 
+es blanca se le pondra una "B" Y sí es neegra una "N".
+ReyB;ReyN.
+
 
 Llamar Método puedemover 
 Llamar Método de validaciondemovimiento
@@ -85,9 +88,10 @@ constantes los cuales son:
 .color B (blanco) o N negro;
 .Valor material 1 puntos de ventaja material;
 .movimiento un casillero para adelante
-cada objeto se llamara con un determinado nombre
-Peon1;Peon2;Peon3;Peon4;Peon5;Peon6;Peon7;Peon8. 
-Tendra 3 metodo con ciertas restringsiones
+cada objeto se llamara con un determinado nombre; Su nombre variara determinando de que la constante color sí es blanca o negra, sí es 
+es blanca se le pondra una "B" Y sí es neegra una "N".
+PeonB1;PeonB2;PeonB3;PeonB4;PeonB5;PeonB6;PeonB7;PeonB8. PeonN1;PeonN2;PeonN3;PeonN4;PeonN5;PeonN6;PeonN7;PeonN8.
+Tendra 3 metodos
 Llamar Método de validaciondemovimiento
 Llamar Método puedemover
 llamar Método ventajamaterial 
@@ -110,7 +114,11 @@ Medio izq. abajo   	          (4,4) -- (3,1) ... (-1,-3)
 Medio der. arriba 		  (4,4) -- (5,7) ... (+1,+3)
 Medio der. abajo  		  (4,4) -- (3,7) ... (-1,+3)
 
-Tendra 3 metodo con ciertas restringsiones
+cada objeto se llamara con un determinado nombre; Su nombre variara determinando de que la constante color sí es blanca o negra, sí es 
+es blanca se le pondra una "B" Y sí es neegra una "N".
+Caballo1B; Caballo2B; Caballo1N; Caballo2N.
+
+Tendra 3 metodos.
 Llamar Método de validaciondemovimiento
 Llamar Método puedemover
 llamar Método ventajamaterial 
