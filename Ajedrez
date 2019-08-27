@@ -98,17 +98,17 @@ constantes los cuales son:
 .Valor material 3 puntos de ventaja material;
 .movimiento en forma de "L" Arriba izq y der, Abajo izq y der, Medio izq arriba y abajo, Medio der arriba y abajo
 
-Arriba izq.       (columna, fila) ...(+3,-1)
-Estas en 	  (4,4) para ir izq. arriba (7,3) ...(+3,-1)
-Arriba der.       (4,4) -- (7,5) .. (+3,+1)
+Arriba izq.      		  (columna, fila) ...(+3,-1)
+Estas en  para ir izq. arriba 	  (4,4) (7,3) ...(+3,-1)
+Arriba der.                       (4,4) -- (7,5) .. (+3,+1)
 
-Abajo izq. 	  (4,4)--- (1,3)   ...(-3,-1)
-Abajo der.        (4,4) -- (1,5)   ...(-3,+1)
+Abajo izq. 	                  (4,4)--- (1,3)   ...(-3,-1)
+Abajo der.                        (4,4) -- (1,5)   ...(-3,+1)
 
-Medio izq. arriba (4,4) -- (5,1) ... (+1,-3)
-Medio izq. abajo  (4,4) -- (3,1) ... (-1,-3)
-Medio der. arriba (4,4) -- (5,7) ... (+1,+3)
-Medio der. abajo  (4,4) -- (3,7) ... (-1,+3)
+Medio izq. arriba                 (4,4) -- (5,1) ... (+1,-3)
+Medio izq. abajo   	          (4,4) -- (3,1) ... (-1,-3)
+Medio der. arriba 		  (4,4) -- (5,7) ... (+1,+3)
+Medio der. abajo  		  (4,4) -- (3,7) ... (-1,+3)
 
 
 
