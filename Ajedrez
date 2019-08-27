@@ -71,7 +71,7 @@ Se clasificaría en una clase llamada piezas que va a tener SUB CLASES
 Rey:Primera sub clase ( que es heredada de la clase piezas) llamada Rey,heredado de la clase piezas, que va a tener
 1 objeto contiene 4 atributos.
 .Uno el cual va a ser el color identificado por una "B" sí es blanco y una "N" si es negro;
-.Se mueve un casillero en cualquier sentido en diagonal,horizontal(izquierda y derecha) ,vertical(arriva y abajo), puede en todos los sentidos.
+.Se mueve un casillero en cualquier sentido en diagonal,horizontal(izquierda y derecha) ,vertical(arriva y abajo), puede en todos los sentidos, incluso hasta paracomer.
 .Va a tener 9 puntos.
 
 cada objeto se llamara con un determinado nombre; Su nombre variara determinando de que la constante color sí es blanca o negra, sí es 
@@ -88,7 +88,7 @@ PEON: Segunda subclase (heredada de la clase piezas) a crear (nombre peones) que
 constantes los cuales son:
 .color B (blanco) o N negro;
 .Valor material 1 puntos.
-.movimiento un casillero para adelante
+.movimiento un casillero para adelante y 2 en diagonal para comer y teniendo en cuenta que halla un espacio libre en el segundo casillero
 cada objeto se llamara con un determinado nombre; Su nombre variara determinando de que la constante color sí es blanca o negra, sí es 
 es blanca se le pondra una "B" Y sí es neegra una "N".
 PeonB1;PeonB2;PeonB3;PeonB4;PeonB5;PeonB6;PeonB7;PeonB8. PeonN1;PeonN2;PeonN3;PeonN4;PeonN5;PeonN6;PeonN7;PeonN8.
@@ -98,33 +98,25 @@ Llamar Método puedemover
 llamar Método ventajamaterial 
 crear Metodo sercomido: Al ser comido se le otorgará al rival 1 puntos material.
 
-CABALLO: Tercera subclase (heredada de la clase piezas) que va a tener el nombre de Caballo y va a tener 2 objeos, con 3 atributos que son 
+
+ALFIL: Tercera subclase (heredada de la clase piezas) a crear (nombre alfil) que contiene 2 objetos cada objeto con 3 atributos que son 
 constantes los cuales son:
 .color B (blanco) o N negro;
 .Valor material 3 puntos.
-.movimiento en forma de "L" Arriba izq y der, Abajo izq y der, Medio izq arriba y abajo, Medio der arriba y abajo
+.movimiento: se mueve en diagoal inclusamente tambien para comer 
 
-Arriba izq.      		  (columna, fila) ...(+3,-1)
-Estas en  para ir izq. arriba 	  (4,4) (7,3) ...(+3,-1)
-Arriba der.                       (4,4) -- (7,5) .. (+3,+1)
-
-Abajo izq. 	                  (4,4)--- (1,3)   ...(-3,-1)
-Abajo der.                        (4,4) -- (1,5)   ...(-3,+1)
-
-Medio izq. arriba                 (4,4) -- (5,1) ... (+1,-3)
-Medio izq. abajo   	          (4,4) -- (3,1) ... (-1,-3)
-Medio der. arriba 		  (4,4) -- (5,7) ... (+1,+3)
-Medio der. abajo  		  (4,4) -- (3,7) ... (-1,+3)
 
 Cada objeto se llamara con un determinado nombre; Su nombre variara determinando de que la constante color sí es blanca o negra, sí es 
 es blanca se le pondra una "B" Y sí es neegra una "N".
-Caballo1B; Caballo2B; Caballo1N; Caballo2N.
+Alfil1B.Alfil2B;Alfil1N;Alfil2N.
 
 Tendra 4 metodos.
 Llamar Método de validaciondemovimiento
 Llamar Método puedemover
 llamar Método ventajamaterial 
 Crear Metodo sercomido: Al ser comido se le otorgará al rival 3 puntos material.
+
+
 
 
 TORRE: Cuarta subclase (heredada de la clase piezas) a crear (nombre Torre) que contiene 2 objetos cada objeto con 3 atributos que son 
@@ -148,7 +140,7 @@ Reyna: Quinta subclase (heredada de la clase piezas) a crear (nombre Reyna) que 
 constantes los cuales son:
 .color B (blanco) o N negro;
 .Valor material 9 puntos.
-.movimiento: se mueve en diagoal, horizontal(izquierda y derecha), vertical(aariva y abajo),no tiene limite de movimiento en casillas.
+.movimiento: se mueve en diagoal, horizontal(izquierda y derecha), vertical(aariva y abajo),no tiene limite de movimiento en casillas. incluso hasta paracomer.
 
 Cada objeto se llamara con un determinado nombre; Su nombre variara determinando de que la constante color sí es blanca o negra, sí es 
 es blanca se le pondra una "B" Y sí es neegra una "N".
@@ -160,6 +152,38 @@ Llamar Método puedemover
 llamar Método ventajamaterial 
 Crear Metodo sercomido: Al ser comido se le otorgará al rival 9 puntos material.
 
+
+
+
+CABALLO: Sexta subclase (heredada de la clase piezas) que va a tener el nombre de Caballo y va a tener 2 objeos, con 3 atributos que son 
+constantes los cuales son:
+.color B (blanco) o N negro;
+.Valor material 3 puntos.
+.movimiento en forma de "L" Arriba izq y der, Abajo izq y der, Medio izq arriba y abajo, Medio der arriba y abajo
+
+Arriba izq.      		  (columna, fila) ...(+3,-1)
+Estas en  para ir izq. arriba 	  (4,4) (7,3) ...(+3,-1)
+Arriba der.                       (4,4) -- (7,5) .. (+3,+1)
+
+Abajo izq. 	                  (4,4)--- (1,3)   ...(-3,-1)
+Abajo der.                        (4,4) -- (1,5)   ...(-3,+1)
+
+Medio izq. arriba                 (4,4) -- (5,1) ... (+1,-3)
+Medio izq. abajo   	          (4,4) -- (3,1) ... (-1,-3)
+Medio der. arriba 		  (4,4) -- (5,7) ... (+1,+3)
+Medio der. abajo  		  (4,4) -- (3,7) ... (-1,+3)
+
+para comer es siempre en el final de la llegada del mismo.
+
+Cada objeto se llamara con un determinado nombre; Su nombre variara determinando de que la constante color sí es blanca o negra, sí es 
+es blanca se le pondra una "B" Y sí es neegra una "N".
+Caballo1B; Caballo2B; Caballo1N; Caballo2N.
+
+Tendra 4 metodos.
+Llamar Método de validaciondemovimiento
+Llamar Método puedemover
+llamar Método ventajamaterial 
+Crear Metodo sercomido: Al ser comido se le otorgará al rival 3 puntos material.
 
 
 
