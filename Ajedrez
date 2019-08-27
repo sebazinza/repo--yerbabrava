@@ -48,6 +48,11 @@ Peon	           x1	          Adelante	        Diagonal x1
 3. No poder mover ninguna pieza
 4. Por tablas (50 Movimientos maximo y gana el que lleva la ventaja material)
  
+Creación de métodos
+
+Metodo ventajamaterial tendrá que dejar dar la opción de darte una opción de que pieza te daría mayor ventaja material 
+Metodo de validaciondemovimiento valida si hay algún otra ficha en el lugar y determina que tipo de color es, de que clase de pieza es si se puede mover ahí o no tu ficha
+
 
 
 CLASES:
@@ -76,11 +81,6 @@ llamar Método ventajamaterial
 
 
 
-
-Creación de métodos
-
-Metodo ventajamaterial tendrá que dejar dar la opción de darte una opción de que pieza te daría mayor ventaja material 
-Metodo de validaciondemovimiento valida si hay algún otra ficha en el lugar y determina que tipo de color es, de que clase de pieza es si se puede mover ahí o no tu ficha
 
 
 
