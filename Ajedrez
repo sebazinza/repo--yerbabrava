@@ -59,7 +59,10 @@ Se clasificaría en una clase llamada piezas que va a tener SUB CLASES
 Rey:Primera sub clase llamada Rey, que va a tener
 1 objeto contiene 2 atributos uno el cual va a ser el color identificado por una "B" sí es blanco y una "N" si es negro; luego va a tener 9 puntos de ventaja material. Va a tener un metodo que se va a llamar mover
 Y va a dejar que se mueva uns posicion hacía cualquier lado mientras no haya ninguna otra pieza en el lugar a donde quiere ir.
-Necesitara un metodo que por el cual si lo coemen
+Llamar metodo sercomido
+Llamar Método mover:Se puede mover un solo casillero en sentido adelante,atras, izquierda,derecha y uno solo para comer en mismo sentido.
+Llamar Método de validaciondemovimiento
+llamar Método ventajamaterial 
 
 PEON: Segunda subclase a crear (nombre peones)que contiene 8 objetos cada objeto con 2 atributos que son ambos constantes los cuales son, color B (blanco) o N negro; Valor material 1 punto; 
 cada objeto se llamara con un determinado nombre
@@ -78,7 +81,7 @@ Creación de métodos
 
 Metodo ventajamaterial tendrá que dejar dar la opción de darte una opción de que pieza te daría mayor ventaja material 
 Metodo de validaciondemovimiento valida si hay algún otra ficha en el lugar y determina que tipo de color es, de que clase de pieza es si se puede mover ahí o no tu ficha
-
+Metodo sercomido es un metodo en cual se toma las constantes de al que se va a comer y ahí uno
 
 
 
