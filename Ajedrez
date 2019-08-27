@@ -58,7 +58,7 @@ Metodo de validaciondemovimiento valida si hay algún otra ficha en el lugar y d
 CLASES:
 PIEZAS 
 Pieza: Va ver una clase llamada piezas que tendra 3 variables globales que van a hacer
-La primera color sí es B es blanco y si es N es negro; despues va a ver una que se va a llamar fila y otra columna.
+La primera color sí es B es blanco y si es N es negro; despues va a ver una que se va a llamar fila y otra columna (haciendo referencia a su posicion en X y en Y).
 Se clasificaría en una clase llamada piezas que va a tener SUB CLASES
 
 Rey:Primera sub clase llamada Rey,heredado de la clase piezas, que va a tener
