@@ -53,7 +53,7 @@ Creación de métodos
 Metodo ventajamaterial tendrá que dejar dar la opción de darte una opción de que pieza te daría mayor ventaja material 
 Metodo de validaciondemovimiento valida si hay algún otra ficha en el lugar y determina que tipo de color es, de que clase de pieza es si se puede mover ahí o no tu ficha, el movimiento no puede ser si "x" es menor a 0 y/o mayor a 8
 Y sí "y" es menor a 0 o mayor a 8 //( estos serian los limites del tablero).
-Metodo mover se tiene que tomar las constantes y embase a que pieza es, cuanto se puede mover,en que dirección, y dejar otorgar una cordenada valida en base a la pieza y a el metodo validaciondemovimoento a donde moverse.
+Metodo mover se tiene que tomar las constantes y embase a que pieza es, cuanto se puede mover,en que dirección, y dejar otorgar una cordenada valida en base a la pieza y a el metodo validaciondemovimoento a donde moverse. (Retorna sí o no)
 
 
 
@@ -67,16 +67,16 @@ Rey:Primera sub clase ( que es enredada de la clase piezas) llamada Rey,heredado
 1 objeto contiene 2 atributos uno el cual va a ser el color identificado por una "B" sí es blanco y una "N" si es negro; luego va a tener 9 puntos de ventaja material. Va a tener un metodo que se va a llamar mover
 Y va a dejar que se mueva uns posicion hacía cualquier lado mientras no haya ninguna otra pieza en el lugar a donde quiere ir.
 
-Llamar Método mover
+Llamar Método puedemover 
 Llamar Método de validaciondemovimiento
 llamar Método ventajamaterial 
 
 PEON: Segunda subclase (eredera de la clase piezas) a crear (nombre peones)que contiene 8 objetos cada objeto con 2 atributos que son ambos constantes los cuales son, color B (blanco) o N negro; Valor material 1 punto; 
 cada objeto se llamara con un determinado nombre
 Peon1;Peon2;Peon3;Peon4;Peon5;Peon6;Peon7;Peon8. 
-Tendra 1 metodo con ciertas restringsiones
+Tendra 4 metodo con ciertas restringsiones
 Llamar Método de validaciondemovimiento
-Llamar Método mover
+Llamar Método puedemover
 llamar Método ventajamaterial 
 
 
