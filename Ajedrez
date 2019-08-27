@@ -71,7 +71,7 @@ Se clasificaría en una clase llamada piezas que va a tener SUB CLASES
 Rey:Primera sub clase ( que es heredada de la clase piezas) llamada Rey,heredado de la clase piezas, que va a tener
 1 objeto contiene 4 atributos.
 .Uno el cual va a ser el color identificado por una "B" sí es blanco y una "N" si es negro;
-.Se mueve un casillero en cualquier sentido adelante,atras,izquierda,derecha.
+.Se mueve un casillero en cualquier sentido en diagonal,horizontal(izquierda y derecha) ,vertical(arriva y abajo), puede en todos los sentidos.
 .Va a tener 9 puntos.
 
 cada objeto se llamara con un determinado nombre; Su nombre variara determinando de que la constante color sí es blanca o negra, sí es 
@@ -127,7 +127,7 @@ llamar Método ventajamaterial
 Crear Metodo sercomido: Al ser comido se le otorgará al rival 3 puntos material.
 
 
-TORRE: Cuarta subclase (heredada de la clase piezas) a crear (nombre peones) que contiene 2 objetos cada objeto con 3 atributos que son 
+TORRE: Cuarta subclase (heredada de la clase piezas) a crear (nombre Torre) que contiene 2 objetos cada objeto con 3 atributos que son 
 constantes los cuales son:
 .color B (blanco) o N negro;
 .Valor material 2 puntos.
@@ -143,6 +143,13 @@ Llamar Método de validaciondemovimiento
 Llamar Método puedemover
 llamar Método ventajamaterial 
 Crear Metodo sercomido: Al ser comido se le otorgará al rival 2 puntos material.
+
+Reyna: Quinta subclase (heredada de la clase piezas) a crear (nombre Reyna) que contiene 2 objetos cada objeto con 3 atributos que son 
+constantes los cuales son:
+.color B (blanco) o N negro;
+.Valor material 9 puntos.
+.movimiento: se mueve en diagoal, horizontal(izquierda y derecha), vertical(aariva y abajo),no tiene limite de movimiento en casillas.
+
 
 
 
