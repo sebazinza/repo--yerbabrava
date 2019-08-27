@@ -62,7 +62,7 @@ Pieza: Va ver una clase llamada piezas que tendra 3 variables globales que van a
 La primera color sí es B es blanco y si es N es negro; despues va a ver una que se va a llamar fila y otra columna (haciendo referencia a su posicion en X y en Y).
 Se clasificaría en una clase llamada piezas que va a tener SUB CLASES
 
-Rey:Primera sub clase llamada Rey,heredado de la clase piezas, que va a tener
+Rey:Primera sub clase ( que es enredada de la clase piezas) llamada Rey,heredado de la clase piezas, que va a tener
 1 objeto contiene 2 atributos uno el cual va a ser el color identificado por una "B" sí es blanco y una "N" si es negro; luego va a tener 9 puntos de ventaja material. Va a tener un metodo que se va a llamar mover
 Y va a dejar que se mueva uns posicion hacía cualquier lado mientras no haya ninguna otra pieza en el lugar a donde quiere ir.
 
@@ -70,7 +70,7 @@ Crear Método mover:Se puede mover un solo casillero en sentido adelante,atras, 
 Llamar Método de validaciondemovimiento
 llamar Método ventajamaterial 
 
-PEON: Segunda subclase a crear (nombre peones)que contiene 8 objetos cada objeto con 2 atributos que son ambos constantes los cuales son, color B (blanco) o N negro; Valor material 1 punto; 
+PEON: Segunda subclase (eredera de la clase piezas) a crear (nombre peones)que contiene 8 objetos cada objeto con 2 atributos que son ambos constantes los cuales son, color B (blanco) o N negro; Valor material 1 punto; 
 cada objeto se llamara con un determinado nombre
 Peon1;Peon2;Peon3;Peon4;Peon5;Peon6;Peon7;Peon8. 
 Tendra 1 metodo con ciertas restringsiones
