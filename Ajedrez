@@ -65,9 +65,19 @@ PEON: Segunda subclase a crear (nombre peones)que contiene 8 objetos cada objeto
 cada objeto se llamara con un determinado nombre
 Peon1;Peon2;Peon3;Peon4;Peon5;Peon6;Peon7;Peon8. 
 Tendra 1 metodo con ciertas restringsiones
-Método mover:Se puede mover un solo casillero para adelante y uno solo para comer, tendrá que dejar dar la opción de darte una opción de que pieza te daría mayo ventaja material, no poder moverse a otro casillero
-Si hay otro objeto en el a no ser que sea para comer.
+Llamar Método mover:Se puede mover un solo casillero para adelante y uno solo para comer
+Llamar Método de validaciondemovimiento
+llamar Método ventajamaterial 
 
+
+
+
+
+
+Creación de métodos
+
+Metodo ventajamaterial tendrá que dejar dar la opción de darte una opción de que pieza te daría mayor ventaja material 
+Metodo de validaciondemovimiento valida si hay algún otra ficha en el lugar y determina que tipo de color es, de que clase de pieza es si se puede mover ahí o no tu ficha
 
 
 
