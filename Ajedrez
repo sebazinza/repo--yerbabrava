@@ -66,7 +66,7 @@ Rey:Primera sub clase llamada Rey,heredado de la clase piezas, que va a tener
 1 objeto contiene 2 atributos uno el cual va a ser el color identificado por una "B" sí es blanco y una "N" si es negro; luego va a tener 9 puntos de ventaja material. Va a tener un metodo que se va a llamar mover
 Y va a dejar que se mueva uns posicion hacía cualquier lado mientras no haya ninguna otra pieza en el lugar a donde quiere ir.
 
-Llamar Método mover:Se puede mover un solo casillero en sentido adelante,atras, izquierda,derecha y uno solo para comer en mismo sentido.
+Crear Método mover:Se puede mover un solo casillero en sentido adelante,atras, izquierda,derecha y uno solo para comer en mismo sentido.
 Llamar Método de validaciondemovimiento
 llamar Método ventajamaterial 
 
@@ -74,7 +74,7 @@ PEON: Segunda subclase a crear (nombre peones)que contiene 8 objetos cada objeto
 cada objeto se llamara con un determinado nombre
 Peon1;Peon2;Peon3;Peon4;Peon5;Peon6;Peon7;Peon8. 
 Tendra 1 metodo con ciertas restringsiones
-Llamar Método mover:Se puede mover un solo casillero para adelante y uno solo para comer
+Crear Método mover:Se puede mover un solo casillero para adelante y uno solo para comer
 Llamar Método de validaciondemovimiento
 llamar Método ventajamaterial 
 
