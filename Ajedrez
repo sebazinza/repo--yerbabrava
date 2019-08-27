@@ -33,7 +33,7 @@ Peón = 1    Puntos
 
 ----------	Movimiento	Orientación	         Forma Comer				
 Torre	        ilimitado.      Horizontal y vertical	------	            			
-Caballo	          3x1/1x3 	            “L”	                ------	            			
+Caballo	          3x1/1x3 	            “L”	        ------	            			
 Alfil	        ilimitado	 Diagonales	        ------.       	    			
 Reina	        ilimitado	    Todos	        ------	            			
 Rey	           x1	            Todos	        ------.        	  			
