@@ -66,6 +66,18 @@ PIEZAS
 Pieza: Va ver una clase llamada piezas que tendra 3 variables globales que van a hacer
 La primera color sí es B es blanco y si es N es negro; despues va a ver una que se va a llamar fila y otra columna (haciendo referencia a
 su posicion en X y en Y).
+
+Creación de métodos
+
+Metodo ventajamaterial tendrá que dejar dar la opción de darte una opción de que pieza te daría mayor ventaja material 
+
+Metodo de validaciondemovimiento valida si hay algún otra ficha en el lugar y determina que tipo de color es, de que clase de pieza es si 
+se puede mover ahí o no tu ficha, el movimiento no puede ser si "x" es menor a 0 y/o mayor a 8
+Y sí "y" es menor a 0 o mayor a 8 //( estos serian los limites del tablero).
+
+Metodo puedemover se tiene que tomar las constantes (que tipo de pieza y color es) , cuanto se puede mover,en que dirección, y dejar otorgar una 
+cordenada valida en base a la pieza y a el metodo validaciondemovimoento a donde moverse. (Retorna sí o no)
+
 Se clasificaría en una clase llamada piezas que va a tener SUB CLASES
 
 Rey:Primera sub clase ( que es heredada de la clase piezas) llamada Rey,heredado de la clase piezas, que va a tener
