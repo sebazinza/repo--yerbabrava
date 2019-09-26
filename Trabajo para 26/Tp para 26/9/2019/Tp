@@ -1,0 +1,49 @@
+Reglas ( siendo 2 jugadores)
+Es mano una vez cada uno
+Se juega con baraja española no pueden estar los 8 y los 9 . Solo se puede usar un mazo.
+Cada jugador debe obtener por cada vez que se reparte 3 cartas  
+En la primera partida cada jugador se le repartirá 3 cartas en forma de uno a uno,Jugador 2 luego jugador1, jugador 2, jugador 1, jugador 2 y jugador 1, después se ponen 4 cartas sobre la mesa de forma en que se vean cuales son
+Se tiene que llegar a una sumatoria de 15 sumando con una carta que se obtiene en mano más alguna que este en mesa( puede ser una o más ) sí se levantan todas de la mesa es una escoba y se la pone en el mazo de uno y deja la ultima dada vuelta. Caso que no hubiera nada para levantar se deja  una carta que tenemos en mano en la mesa, la carta elegida ya va a elección
+En la ultima jugada tiene que dar lo que queda en mesa 10;25;55;40.
+
+
+Puntos
+Obtención del 7 de velo( 7 de oro) valdrá un punto
+Obtención de mayoría de 7 valdrá un punto, caso contrario que ambos tengan 2 “7” se anulara el punto 
+
+
+
+
+
+Estrategias
+
+Sí se obtiene el 7 de oro tenerlo hasta tercera si no sos mano
+
+Sí se obtiene la oportunidad de levantar cartas darle prioridad a levantar las que sean de oro
+
+Sí se obtiene la oportunidad de levantar cartas darle  prioridad a levantar la mayor sumatoria de cartas ejemplo si hay un  5 y un 2 y vos tenes un 12 y un 8 en vez de levantar con el 12 a el 5 usar el 8 y levantar el 5 y el 2 que daría 7 y 7+8=15 ya tendría 3 cartas más y una escobita
+Se tiene que tener en cuenta los 7 que levanto nuestro compañero y también cuantos oros lleva obteniendo durante la partida.
+
+
+
+
+El caso de de melanie si se puede  con 11 escobas obtención del 7 de velo, obteniendo los 70, con la sumatoria de cartas y oros.
+
+
+
+
+Casos de prueba
+
+Crear una jugada en la que nos dé 14 la sumatoria de cartas( comprueba que sume bien y valide como debe ser)
+Crear una jugada en la que nos dé 16 la sumatoria de cartas( comprueba que sume bien y valide como debe ser)
+Verificar que no se repita ninguna carta 
+Pedir que reparta 2 veces y verificar que lo haga una vez
+
+Una vez repartido, el mano tiene escoba de mano, comprobar funcionamiento
+
+
+
+
+
+
+
