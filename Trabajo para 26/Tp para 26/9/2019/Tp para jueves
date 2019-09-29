@@ -5,11 +5,14 @@ Cada jugador debe obtener por cada vez que se reparte 3 cartas
 En la primera partida cada jugador se le repartirá 3 cartas en forma de uno a uno,Jugador 2 luego jugador1, jugador 2, jugador 1, jugador 2 y jugador 1, después se ponen 4 cartas sobre la mesa de forma en que se vean cuales son
 Se tiene que llegar a una sumatoria de 15 sumando con una carta que se obtiene en mano más alguna que este en mesa( puede ser una o más ) sí se levantan todas de la mesa es una escoba y se la pone en el mazo de uno y deja la ultima dada vuelta. Caso que no hubiera nada para levantar se deja  una carta que tenemos en mano en la mesa, la carta elegida ya va a elección
 En la ultima jugada tiene que dar lo que queda en mesa 10;25;55;40.
+Una escoba se hace cuando con una carta que uno tira, levanta todo lo que hay en mesa.
 
 
 Puntos
 Obtención del 7 de velo( 7 de oro) valdrá un punto
 Obtención de mayoría de 7 valdrá un punto, caso contrario que ambos tengan 2 “7” se anulara el punto 
+obtención por cada escoba echa 1 punto
+
 
 
 
@@ -23,6 +26,7 @@ Sí se obtiene la oportunidad de levantar cartas darle prioridad a levantar las 
 
 Sí se obtiene la oportunidad de levantar cartas darle  prioridad a levantar la mayor sumatoria de cartas ejemplo si hay un  5 y un 2 y vos tenes un 12 y un 8 en vez de levantar con el 12 a el 5 usar el 8 y levantar el 5 y el 2 que daría 7 y 7+8=15 ya tendría 3 cartas más y una escobita
 Se tiene que tener en cuenta los 7 que levanto nuestro compañero y también cuantos oros lleva obteniendo durante la partida.
+sí en mesa hay todos par y uno en la mano tiene no tiene ninguna impar ya descartar que no puede hacer ningun juego
 
 
 
