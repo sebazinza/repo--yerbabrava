@@ -5,19 +5,19 @@ var numero
 }
 
 class Espada  inherits mazo{
-	var palo	"espada"
+	var palo = new espada()
 }
 
 class Basto  inherits mazo{
-	var palo = "basto"	
+	var palo = new basto ()	
 }
 
 class Oro  inherits mazo{
-	var palo = "oro"
+	var palo = new oro ()
 }
 
 class Copa  inherits mazo{
-	var palo = "copa"	
+	var palo = new copa ()	
 }
 const anchoe = 	new class Espada 	(valor=14,tanto=1,numero=1)
 const anchob =  new class Basto		(valor=13,tanto=1,numero=1)
