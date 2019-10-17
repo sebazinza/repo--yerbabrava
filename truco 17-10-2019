@@ -13,7 +13,7 @@ class Basto  inherits mazo{
 }
 
 class Oro  inherits mazo{
-	var palo	"oro"
+	var palo = "oro"
 }
 
 class Copa  inherits mazo{
@@ -27,10 +27,10 @@ const trese =  	new class Espada	(valor=10,tanto=3,numero=3)
 const tresb = 	new class Basto 	(valor=10,tanto=3,numero=3)
 const treso = 	new class Oro 		(valor=10,tanto=3,numero=3)
 const tresc = 	new class Copa 		(valor=10,tanto=3,numero=3)
-const dose = 	  new class Espada  (valor=9,tanto=2,numero=2)
-const dosb = 	  new class Basto	  (valor=9,tanto=2,numero=2)
-const doso =    new class Oro 		(valor=9,tanto=2,numero=2)
-const dosc = 	  new class Copa 	  (valor=9,tanto=2,numero=2)
+const dose = 	new class Espada  	(valor=9,tanto=2,numero=2)
+const dosb = 	new class Basto	  	(valor=9,tanto=2,numero=2)
+const doso =   	new class Oro 		(valor=9,tanto=2,numero=2)
+const dosc = 	new class Copa 	  	(valor=9,tanto=2,numero=2)
 const anchoo =	new class Oro 		(valor=8,tanto=1,numero=1)
 const anchoc = 	new class Copa 		(valor=8,tanto=1,numero=1)
 const docee = 	new class Espada 	(valor=7,tanto=0,numero=0)
@@ -46,11 +46,11 @@ const diezb = 	new class Basto  	(valor=5,tanto=0,numero=0)
 const diezo = 	new class Oro    	(valor=5,tanto=0,numero=0)
 const diezc = 	new class Copa   	(valor=5,tanto=0,numero=0)
 const sevenc = 	new class Copa   	(valor=4,tanto=7,numero=7)
-const seveno =	new class Oro	    (valor=4,tanto=7,numero=7)
-const seise =	  new class Espada 	(valor=3,tanto=6,numero=6)
-const seisb =	  new class Basto  	(valor=3,tanto=6,numero=6)
-const seiso =	  new class Oro     (valor=3,tanto=6,numero=6)
-const seisc =	  new class Copa    (valor=3,tanto=6,numero=6)
+const seveno =	new class Oro	     	(valor=4,tanto=7,numero=7)
+const seise =	new class Espada 	(valor=3,tanto=6,numero=6)
+const seisb =	new class Basto  	(valor=3,tanto=6,numero=6)
+const seiso =	new class Oro     	(valor=3,tanto=6,numero=6)
+const seisc =	new class Copa    	(valor=3,tanto=6,numero=6)
 const cincoe =	new class Espada 	(valor=2,tanto=5,numero=5)
 const cincob =	new class Basto  	(valor=2,tanto=5,numero=5)
 const cincoo =	new class Oro   	(valor=2,tanto=5,numero=5)
