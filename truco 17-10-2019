@@ -60,3 +60,9 @@ const cuatrob =	new class Basto  	(valor=1,tanto=4,numero=4)
 const cuatroo =	new class Oro   	(valor=1,tanto=4,numero=4)
 const cuatroc =	new class Copa   	(valor=1,tanto=4,numero=4)
 
+class Jugador {
+const mano = []
+const enmano = []
+var property cantcartas = enmano.size
+}
+
