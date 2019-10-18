@@ -60,9 +60,27 @@ const cuatrob =	new class Basto  	(valor=1,tanto=4,numero=4)
 const cuatroo =	new class Oro   	(valor=1,tanto=4,numero=4)
 const cuatroc =	new class Copa   	(valor=1,tanto=4,numero=4)
 
-class Jugador {
+class player {
 const mano = []
 const enmano = []
-var property cantcartas = enmano.size
+const envido [enmano]
+var property cantcartas = enmano.size()
+method agregarCartaMano(carta)
+{
+	mano.add(carta)
+
+}
 }
 
+objet partida
+{
+const property player = []
+const property mazo = [] 
+
+var turno = 1
+
+method repartir(player){ 
+		(1..3).forEach({n=> jugador.agregarCartasMano})
+
+method ver (enmano)
+}
