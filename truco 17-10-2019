@@ -74,6 +74,7 @@ method agregarCartaMano(carta)
 
 objet partida
 {
+const property mesa = []
 const property player = []
 const property mazo = [] 
 
